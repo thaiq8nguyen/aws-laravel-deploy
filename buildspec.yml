@@ -26,7 +26,7 @@ phases:
   build:
     commands:
       - echo Begin build phase
-      - npm run build
+      - npm run prod
     finally:
       - echo End build phase
 
