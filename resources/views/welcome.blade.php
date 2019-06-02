@@ -83,6 +83,9 @@
                 <div class="title m-b-md">
                     Laravel
                 </div>
+                <section class="about">
+                    <h2 style="color: crimson;">This application is hosted on AWS</h2>
+                </section>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
