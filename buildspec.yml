@@ -29,5 +29,8 @@ phases:
       - npm run prod
     finally:
       - echo End build phase
+artifacts:
+  files:
+    - '**/*'
 
 
