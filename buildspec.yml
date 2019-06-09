@@ -10,17 +10,17 @@ phases:
       # Install NPM
       - npm install npm@latest -g
       # Install Composer
-      - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-      - php composer-setup.php
-      - php -r "unlink('composer-setup.php');"
-      - mv composer.phar /usr/local/bin/composer
+      #- php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+      #- php composer-setup.php
+      #- php -r "unlink('composer-setup.php');"
+      #- mv composer.phar /usr/local/bin/composer
     finally:
       - echo End install phase
   pre_build:
     commands:
       - echo Begin pre build phase
       - npm install
-      - composer install --no-progress --no-suggest
+      #- composer install --no-progress --no-suggest
     finally:
       - echo End pre build phase
   build:

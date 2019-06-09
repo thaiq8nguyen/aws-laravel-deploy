@@ -84,7 +84,7 @@
                     Laravel
                 </div>
                 <section class="about">
-                    <h2 style="color: crimson;">This application is hosted on AWS</h2>
+                    <h2 style="color: crimson;">This application is hosted on AWS and connecting to a RDS.</h2>
                 </section>
 
                 <div class="links">
